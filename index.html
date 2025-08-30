@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weather Bar – Privacy Policy</title>
+  <style>
+    :root {{
+      --bg: #0b0f14;
+      --panel: #121820;
+      --text: #e8eef6;
+      --muted: #a8b3c7;
+      --accent: #4aa3ff;
+      --border: #1e2a38;
+    }}
+    * {{ box-sizing: border-box; }}
+    body {{
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Apple SD Gothic Neo, 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: radial-gradient(1200px 800px at 20% -10%, #15202b 0%, var(--bg) 60%);
+      padding: 48px 16px;
+    }}
+    .container {{
+      max-width: 880px;
+      margin: 0 auto;
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      backdrop-filter: blur(6px);
+      box-shadow: 0 10px 40px rgba(0,0,0,0.35);
+    }}
+    h1, h2 {{ line-height: 1.25; }}
+    h1 {{
+      font-size: 28px;
+      margin: 0 0 8px;
+    }}
+    .updated {{
+      color: var(--muted);
+      margin-bottom: 20px;
+      font-size: 14px;
+    }}
+    .lang-note {{
+      border: 1px dashed var(--border);
+      padding: 10px 12px;
+      border-radius: 10px;
+      background: #0e141b;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }}
+    .section {{ border-top: 1px solid var(--border); padding-top: 16px; margin-top: 16px; }}
+    a {{ color: var(--accent); text-decoration: none; }}
+    a:hover {{ text-decoration: underline; }}
+    ul {{ padding-left: 18px; }}
+    code {{ background: #0f1620; border: 1px solid var(--border); padding: 2px 6px; border-radius: 6px; }}
+    .footer {{
+      margin-top: 28px;
+      font-size: 13px;
+      color: var(--muted);
+    }}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>Weather Bar – Privacy Policy</h1>
+    <div class="updated">Last updated: {date.today().isoformat()}</div>
+    <p class="lang-note">English follows. 한국어 버전은 아래로 스크롤하세요.</p>
+
+    <section class="section" id="en">
+      <h2>1) Overview</h2>
+      <p><strong>Weather Bar</strong> does <strong>not</strong> collect, store, or share any personal information or user data.</p>
+
+      <h2>2) Data Collection</h2>
+      <ul>
+        <li>No personal data is collected.</li>
+        <li>No analytics, tracking, or profiling is performed.</li>
+        <li>No cookies are set by the extension.</li>
+      </ul>
+
+      <h2>3) Permissions & How They Are Used</h2>
+      <ul>
+        <li><code>storage</code>: Saves local preferences such as theme, units (C/F), and UI options. These values stay on the user&apos;s device.</li>
+        <li>Host permissions (<code>api.open-meteo.com</code>, <code>geocoding-api.open-meteo.com</code>): Used solely to fetch weather and geocoding data required to display the forecast.</li>
+      </ul>
+
+      <h2>4) Third Parties</h2>
+      <p>Weather data is retrieved from Open-Meteo APIs. The extension does not transmit any personal data to third parties.</p>
+
+      <h2>5) Remote Resources</h2>
+      <p>The extension may load icon styles (e.g., Font Awesome CSS) from a CDN for visual appearance only. No remote JavaScript is executed.</p>
+
+      <h2>6) Children&apos;s Privacy</h2>
+      <p>This extension does not target children and does not collect personal data from anyone, including children under the age of 13.</p>
+
+      <h2>7) Changes</h2>
+      <p>We may update this policy to reflect improvements or legal requirements. Material changes will be reflected by the &quot;Last updated&quot; date.</p>
+
+      <h2>8) Contact</h2>
+      <p>If you have questions, please contact us at <em>replace-with-your-email@example.com</em>.</p>
+    </section>
+
+    <section class="section" id="ko">
+      <h2>1) 개요</h2>
+      <p><strong>Weather Bar</strong>는 개인 정보 또는 사용자 데이터를 <strong>수집·저장·공유하지 않습니다</strong>.</p>
+
+      <h2>2) 데이터 수집</h2>
+      <ul>
+        <li>어떠한 개인 데이터도 수집하지 않습니다.</li>
+        <li>분석, 추적, 프로파일링을 수행하지 않습니다.</li>
+        <li>확장 프로그램은 쿠키를 설정하지 않습니다.</li>
+      </ul>
+
+      <h2>3) 권한과 사용 목적</h2>
+      <ul>
+        <li><code>storage</code>: 테마, 온도 단위(섭씨/화씨), UI 옵션 등 사용자 설정을 로컬에 저장합니다. 이 값은 사용자 기기 내에만 보관됩니다.</li>
+        <li>호스트 권한(<code>api.open-meteo.com</code>, <code>geocoding-api.open-meteo.com</code>): 예보 표시를 위해 필요한 날씨·지오코딩 데이터를 가져오는 용도로만 사용됩니다.</li>
+      </ul>
+
+      <h2>4) 제3자</h2>
+      <p>날씨 데이터는 Open-Meteo API에서 가져옵니다. 확장 프로그램은 어떠한 개인 데이터도 제3자에게 전송하지 않습니다.</p>
+
+      <h2>5) 원격 리소스</h2>
+      <p>시각적 표현을 위해 CDN(예: Font Awesome CSS)에서 아이콘 스타일을 불러올 수 있습니다. 원격 JavaScript 코드는 실행하지 않습니다.</p>
+
+      <h2>6) 아동 보호</h2>
+      <p>본 확장 프로그램은 아동을 대상으로 하지 않으며, 만 13세 미만을 포함한 누구의 개인 데이터도 수집하지 않습니다.</p>
+
+      <h2>7) 변경</h2>
+      <p>정책은 기능 개선 또는 법적 요구에 따라 업데이트될 수 있습니다. 중요한 변경 사항은 상단의 &ldquo;최종 업데이트&rdquo; 날짜에 반영됩니다.</p>
+
+      <h2>8) 문의</h2>
+      <p>문의 사항은 <em>replace-with-your-email@example.com</em> 으로 연락해 주세요.</p>
+    </section>
+
+    <p class="footer">© {date.today().year} Weather Bar</p>
+  </main>
+</body>
+</html>
